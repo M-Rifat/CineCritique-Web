@@ -13,7 +13,7 @@ const Footer = () => {
           <strong>CineCritique </strong>is the world’s most trusted recommendation resources for quality entertainment.
         </p>
         <p>
-          <strong>Contact : </strong>cinecritique@gmail.com
+          <strong>Contact : </strong>info@cinecritique.com
         </p>{" "}
         <br />
         <p>
