@@ -1,0 +1,93 @@
+#header {
+  background-color: #028090;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  height: 80px;
+  top: 0;
+  left: 0;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.title {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+#navbar,
+.headLogo {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+  color: white;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #ffc600;
+}
+
+#header .sign-in a:hover,
+#header .sign-in a.active {
+  color: #ffc600;
+}
+#header .create-button:hover,
+#header .create-button.active {
+  color: #028090;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #ffffff;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#header .sign-in a {
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+#header .create-button {
+  cursor: pointer;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  gap: 8px;
+  color: white;
+  background: #79d46b;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
